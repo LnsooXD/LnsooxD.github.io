@@ -23,25 +23,25 @@ tags:
 
 ### Steps
 
-#### 得到证书的hash
+得到证书的hash
 
 ```shell
 openssl x509 -inform PEM -subject_hash_old -in bec0e24d.0 | head -1
 ```
 
-#### 重命名证书文件({hash}为第一步得到的hash值)
+重命名证书文件({hash}为第一步得到的hash值)
 
 ```shell
 openssl x509 -inform PEM -text -in {hash}.0 -out /dev/null >> {hash}.0
 ```
 
-#### 把证书push到手机上
+把证书push到手机上
 
 ```shell
 adb push {hash}.0 /sdcard/
 ```
 
-#### adb 登陆手机, 并重新挂载 `/system` 为可读写
+adb 登陆手机, 并重新挂载 `/system` 为可读写
 
 ```shell
 adb shell
@@ -49,16 +49,16 @@ su
 mount -o rw,remount /system
 ```
 
-#### 把证书导入系统 CA 目录
+把证书导入系统 CA 目录
 
 ```shell
 cp /sdcard/{hash}.0  /system/etc/security/cacerts/
 ```
 
-#### 确保证书文件权限
+确保证书文件权限
 
 ```shell
 chmod 644  /system/etc/security/cacerts/{hash}.0
 ```
 
-#### 重启， 打开 `设置->安全->加密与凭据[系统]` 查看
+重启， 打开 `设置->安全->加密与凭据[系统]` 查看
