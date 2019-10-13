@@ -11,17 +11,17 @@ tags:
     - QA
 ---
 
-## 把 Charls CA 证书安装到 Android 系统级别信任中
+## 前言
 
 使用 Charles 抓包测试 https 请求的时候，需要安装 Charles 的 CA 证书。一般情况下，在`设置->安全->加密与凭据` 中安装即可。但是有的时候， 这样安装的证书， 系统就是不认(一般是国产厂商的系统), 此时我们就需要把证书导入到系统信任列表中。
 
-### Requements
+## Requements
 
 - 一台root过的 Android 手机
 - openssl
 - The CA cert: charles.pem
 
-### Steps
+## Steps
 
 得到证书的hash
 
