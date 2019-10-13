@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "Welcome to Lnsoo Blog"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2019-10-13 21:57:33
+author:     "LnsooXD"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+## 前言
+
+Lnsoo 的 Blog 就这么开通了。
+
+Wellcome!
