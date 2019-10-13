@@ -66,7 +66,7 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "自由职业者\\吟游全栈工程师"
+sidebar-about-description: "自由职业者 | 吟游全栈工程师<br />待历经沧海&#47;待阅尽悲欢&#47;心方倦知返"
 sidebar-avatar: /img/avatar-lnsoo.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
