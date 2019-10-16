@@ -6,7 +6,7 @@
     var disqus_thread_el = document.getElementById("disqus_thread");
     var disqus_script_state_el = document.createElement("p");
     disqus_script_state_el.style.color = "gray";
-    disqus_script_state_el.innerHTML = "正在加载评论系...";
+    disqus_script_state_el.innerHTML = "正在加载评论...";
     disqus_thread_el.appendChild(disqus_script_state_el);
 
     var disqus_load_result = false;
@@ -22,7 +22,7 @@
       if (disqus_load_result) {
         disqus_script_state_el.remove();
       } else {
-        disqus_script_state_el.innerHTML = "评论系统加载失败, 请检查网络";
+        disqus_script_state_el.innerHTML = "评论加载失败, 请检查网络";
       }
     };
 
