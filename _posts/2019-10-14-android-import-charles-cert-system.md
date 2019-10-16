@@ -2,7 +2,7 @@
 layout:     post
 title:      "把 Charls CA 证书安装到 Android 系统级别信任中"
 date:       2019-10-14 01:56:33+800
-author:     "LnsooXD"
+author:     "Lnsoo"
 header-img: "img/post-bg-qa-type.jpg"
 tags:
     - Android
