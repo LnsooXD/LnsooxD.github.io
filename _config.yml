@@ -6,7 +6,7 @@ email: LnsooXD@gmail.com
 description: ""
 keyword: ""
 url: "https://lnsoo.blog"              # your host, for absolute URL
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
