@@ -13,7 +13,7 @@ RSS: false
 weibo_username:     36gg
 zhihu_username:     lnsooxd
 github_username:    LnsooXD
-#twitter_username:  huxpro
+#twitter_username:  xxx
 facebook_username:  LnsooXD
 
 
@@ -45,15 +45,6 @@ kramdown:
 
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
-
-# Duoshuo settings
-# duoshuo_username: huxblog
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     
-# set to false if you want to use Comment without Sharing
-
-
-
 
 # Analytics settings
 # Baidu Analytics
