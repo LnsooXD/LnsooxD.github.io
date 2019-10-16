@@ -2,7 +2,6 @@
 <div id="disqus_thread"></div>
 <script>
   (function() {
-
     var disqus_thread_el = document.getElementById("disqus_thread");
     var disqus_script_state_el = document.createElement("p");
     disqus_script_state_el.style.color = "gray";
@@ -31,7 +30,8 @@
       this.page.identifier = "{{ page.url | absolute_url }}";
     };
     var disqus_script = document.createElement("script");
-    disqus_script.src = "//{{ site.disqus.shortname }}.disqus.com/embed.js";
+    // disqus_script.src = "//{{ site.disqus.shortname }}.disqus.com/embed.js";
+    disqus_script.src = "/js/disqus/embed.js";
     disqus_script.async = true;
     disqus_script.onload = function() {
       disqus_load_result = true;
