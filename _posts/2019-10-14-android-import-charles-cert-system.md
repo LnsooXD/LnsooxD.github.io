@@ -44,9 +44,18 @@ adb push {hash}.0 /sdcard/
 adb 登陆手机, 并重新挂载 `/system` 为可读写
 
 ```shell
+# 方法一：
 adb shell
 su
 mount -o rw,remount /system
+
+# 方法二:
+adb root
+adb disable-verity
+adb reboot
+adb root
+adb remount
+
 ```
 
 把证书导入系统 CA 目录
