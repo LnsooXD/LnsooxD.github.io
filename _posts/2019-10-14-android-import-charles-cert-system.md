@@ -26,7 +26,7 @@ tags:
 得到证书的hash
 
 ```shell
-openssl x509 -inform PEM -subject_hash_old -in bec0e24d.0 | head -1
+openssl x509 -inform PEM -subject_hash_old -in charles.pem | head -1
 ```
 
 重命名证书文件({hash}为第一步得到的hash值)
